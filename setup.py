@@ -20,7 +20,7 @@ setuptools.setup(
     long_description=long_description,
     entry_points={
         'console_scripts': [
-            'yml2json=yml2json:main',
+            'yml2json=yml2json',
         ],
     },
 )
