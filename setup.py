@@ -12,7 +12,7 @@ setuptools.setup(
     license='MIT',
     author='Ryan Parman',
     author_email='ryan@ryanparman.com',
-    url="https://github.com/skyzyx/yaml2json",
+    url="https://github.com/skyzyx/yml2json",
     install_requires=requirements,
     version='1.1.0',
     packages=setuptools.find_packages(),
@@ -20,7 +20,7 @@ setuptools.setup(
     long_description=long_description,
     entry_points={
         'console_scripts': [
-            'yaml2json=yaml2json:main',
+            'yml2json=yml2json:main',
         ],
     },
 )
