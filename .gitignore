@@ -1,3 +1,6 @@
 *.pyc
+build/
+dist/
 docs/
 vendor/
+yml2json.egg-info/

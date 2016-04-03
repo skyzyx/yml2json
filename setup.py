@@ -1,5 +1,4 @@
-import setuptools 
-
+import setuptools
 
 long_description = ""
 try:
@@ -8,15 +7,20 @@ try:
 except IOError:
     requirements = []
 
-
 setuptools.setup(
-    name='yaml2json',
+    name='yml2json',
     license='MIT',
     author='Ryan Parman',
     author_email='ryan@ryanparman.com',
+    url="https://github.com/skyzyx/yaml2json",
     install_requires=requirements,
     version='1.1.0',
     packages=setuptools.find_packages(),
     description='Converts YAML input to JSON output.',
-    long_description=long_description
+    long_description=long_description,
+    entry_points={
+        'console_scripts': [
+            'yaml2json=yaml2json:main',
+        ],
+    },
 )
