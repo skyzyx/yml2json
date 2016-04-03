@@ -9,12 +9,21 @@ Converts YAML input to JSON output.
 
 ## Examples
 
-{Fill-in: Example usage of this code.}
+```bash
+yaml2json sample.yml
+yaml2json sample.yml --pretty
+yaml2json sample.yml --output sample.json
+yaml2json sample.yml --output sample.json --pretty
 
+cat sample.yml | yaml2json
+cat sample.yml | yaml2json --pretty
+cat sample.yml | yaml2json --output sample.json
+cat sample.yml | yaml2json --output sample.json --pretty
+```
 
 ## Installation
 
-Using [Composer]:
+Using Pip:
 ```bash
 pip install yaml2json
 ```
