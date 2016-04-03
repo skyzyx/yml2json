@@ -16,3 +16,7 @@ readme:
 .PHONY: push
 push:
 	twine upload dist/*
+
+.PHONY: clean
+clean:
+	rm -Rf *.pyc build/ dist/ docs/ yml2json.egg-info/

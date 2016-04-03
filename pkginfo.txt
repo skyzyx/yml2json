@@ -5,7 +5,7 @@ Author: Ryan Parman
 Author-email: ryan at ryanparman com
 Maintainer: Ryan Parman
 Maintainer-email: ryan at ryanparman com
-Home-page: https://github.com/skyzyx/yaml2json
+Home-page: https://github.com/skyzyx/yml2json
 Summary: Converts YAML input to JSON output.
 License: MIT
 Keywords: yaml json
@@ -15,6 +15,4 @@ Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Natural Language :: English
 Classifier: Programming Language :: Python :: 2.7
-Classifier: Programming Language :: Python :: Implementation :: CPython
 Classifier: Topic :: Utilities
-
