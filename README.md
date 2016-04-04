@@ -28,17 +28,6 @@ Using [Pip](https://pypi.python.org/pypi/yml2json):
 pip install yml2json
 ```
 
-## GPG Signing
-
-Each release (i.e., git tag) is GPG-signed. You can easily verify the contents using [Keybase](https://keybase.io).
-
-```bash
-keybase dir verify
-```
-
-If you're more familiar with traditional GPG signing, view `SIGNED.md` for the information you need to do the verification.
-
-
 ## Contributing
 Here's the process for contributing:
 
