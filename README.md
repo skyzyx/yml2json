@@ -23,7 +23,7 @@ cat sample.yml | yml2json --output sample.json --pretty
 
 ## Installation
 
-Using Pip:
+Using [Pip](https://pypi.python.org/pypi/yml2json):
 ```bash
 pip install yml2json
 ```

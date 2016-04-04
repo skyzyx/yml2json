@@ -17,13 +17,13 @@ setuptools.setup(
     long_description=readme(),
     keywords='yaml yml json',
     classifiers=[
-        'Development Status :: 4 - Beta'
-        'Environment :: Console'
-        'Intended Audience :: Developers'
-        'License :: OSI Approved :: MIT License'
-        'Natural Language :: English'
-        'Programming Language :: Python :: 2.7'
-        'Topic :: Utilities'
+        'Development Status :: 4 - Beta',
+        'Environment :: Console',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Natural Language :: English',
+        'Programming Language :: Python :: 2.7',
+        'Topic :: Utilities',
     ],
     entry_points={
         'console_scripts': [

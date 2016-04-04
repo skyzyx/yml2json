@@ -25,7 +25,7 @@ Examples
 Installation
 ------------
 
-Using Pip:
+Using `Pip <https://pypi.python.org/pypi/yml2json>`__:
 
 .. code:: bash
 
