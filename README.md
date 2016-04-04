@@ -28,6 +28,22 @@ Using [Pip](https://pypi.python.org/pypi/yml2json):
 pip install yml2json
 ```
 
+## Developing
+
+First, install [VirtualEnv](https://virtualenv.pypa.io).
+
+```bash
+pip install --upgrade virtualenv
+```
+
+Next, activate your virtual environment and install the dependencies.
+
+```bash
+virtualenv vendor && \
+source vendor/bin/activate && \
+pip install -r requirements.txt
+```
+
 ## Contributing
 Here's the process for contributing:
 
