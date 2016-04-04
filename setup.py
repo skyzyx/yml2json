@@ -1,5 +1,9 @@
 import setuptools
 
+def readme():
+    with open('README.rst') as f:
+        return f.read()
+
 setuptools.setup(
     name='yml2json',
     license='MIT',
@@ -10,7 +14,7 @@ setuptools.setup(
     version='1.0.0',
     packages=['yml2json'],
     description='Converts YAML input to JSON output.',
-    long_description="",
+    long_description=readme(),
     keywords='yaml yml json',
     classifiers=[
         'Development Status :: 4 - Beta'
