@@ -1,5 +1,5 @@
-yaml2json
-=========
+yml2json
+========
 
 | |Source|
 | |Open Issues|
@@ -12,15 +12,15 @@ Examples
 
 .. code:: bash
 
-    yaml2json sample.yml
-    yaml2json sample.yml --pretty
-    yaml2json sample.yml --output sample.json
-    yaml2json sample.yml --output sample.json --pretty
+    yml2json sample.yml
+    yml2json sample.yml --pretty
+    yml2json sample.yml --output sample.json
+    yml2json sample.yml --output sample.json --pretty
 
-    cat sample.yml | yaml2json
-    cat sample.yml | yaml2json --pretty
-    cat sample.yml | yaml2json --output sample.json
-    cat sample.yml | yaml2json --output sample.json --pretty
+    cat sample.yml | yml2json
+    cat sample.yml | yml2json --pretty
+    cat sample.yml | yml2json --output sample.json
+    cat sample.yml | yml2json --output sample.json --pretty
 
 Installation
 ------------
@@ -29,7 +29,7 @@ Using Pip:
 
 .. code:: bash
 
-    pip install yaml2json
+    pip install yml2json
 
 GPG Signing
 -----------
@@ -49,7 +49,7 @@ Contributing
 
 Here's the process for contributing:
 
-#. Fork yaml2json to your GitHub account.
+#. Fork yml2json to your GitHub account.
 #. Clone your GitHub copy of the repository into your local workspace.
 #. Write code, fix bugs, and add tests with 100% code coverage.
 #. Commit your changes to your local workspace and push them up to your
@@ -67,15 +67,15 @@ Authors, Copyright & Licensing
 -  Copyright (c) 2016 `Ryan Parman <http://ryanparman.com>`__.
 
 See also the list of
-`contributors <https://github.com/skyzyx/yaml2json/contributors>`__ who
+`contributors <https://github.com/skyzyx/yml2json/contributors>`__ who
 participated in this project.
 
 Licensed for use under the terms of the
 `MIT <http://www.opensource.org/licenses/mit-license.php>`__ license.
 
-.. |Source| image:: http://img.shields.io/badge/source-skyzyx/yaml2json-blue.svg?style=flat-square
-   :target: https://github.com/skyzyx/yaml2json
-.. |Open Issues| image:: http://img.shields.io/github/issues/skyzyx/yaml2json.svg?style=flat-square
-   :target: https://github.com/skyzyx/yaml2json/issues
+.. |Source| image:: http://img.shields.io/badge/source-skyzyx/yml2json-blue.svg?style=flat-square
+   :target: https://github.com/skyzyx/yml2json
+.. |Open Issues| image:: http://img.shields.io/github/issues/skyzyx/yml2json.svg?style=flat-square
+   :target: https://github.com/skyzyx/yml2json/issues
 .. |Author| image:: http://img.shields.io/badge/author-@skyzyx-blue.svg?style=flat-square
    :target: https://twitter.com/skyzyx

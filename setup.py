@@ -6,12 +6,11 @@ setuptools.setup(
     author='Ryan Parman',
     author_email='ryan@ryanparman.com',
     url="https://github.com/skyzyx/yml2json",
-    install_requires=['argparse', 'yaml'],
+    install_requires=['PyYAML==3.11'],
     version='1.0.0',
     packages=['yml2json'],
     description='Converts YAML input to JSON output.',
     long_description="",
-    license='MIT',
     keywords='yaml yml json',
     classifiers=[
         'Development Status :: 4 - Beta'
