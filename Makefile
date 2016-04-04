@@ -7,7 +7,6 @@ all:
 build:
 	python setup.py sdist
 	python setup.py bdist_wheel
-	cp pkginfo.txt yml2json.egg-info/PKG-INFO
 
 .PHONY: readme
 readme:
