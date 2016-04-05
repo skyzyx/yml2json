@@ -10,6 +10,7 @@
 from __future__ import print_function
 import argparse
 import datetime
+import dateutil.parser
 import json
 import sys
 import yaml
@@ -22,12 +23,20 @@ class JsonTimeEncoder(json.JSONEncoder):
     """
     def default(self, obj):
         if isinstance(obj, datetime.datetime):
-            return obj.strftime('%Y-%m-%dT%H:%M:%S%z')
+            if int(obj.strftime('%f')) is 0:
+                return obj.strftime('%Y-%m-%dT%H:%M:%S%z')
+            else:
+                return obj.strftime('%Y-%m-%dT%H:%M:%S.%f%z')
         elif isinstance(obj, datetime.date):
             return obj.strftime('%Y-%m-%d')
+        elif isinstance(obj, set):
+            return list(obj)
         return json.JSONEncoder.default(self, obj)
 
 # -----------------------------------------------------------------------------
+
+def timestamp_constructor(loader, node):
+    return dateutil.parser.parse(node.value)
 
 def main():
     # Available CLI flags.
@@ -91,4 +100,5 @@ def main():
 # -----------------------------------------------------------------------------
 
 if __name__ == "__main__":
+    yaml.add_constructor(u'tag:yaml.org,2002:timestamp', timestamp_constructor)
     main()

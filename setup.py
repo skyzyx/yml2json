@@ -10,8 +10,11 @@ setuptools.setup(
     author='Ryan Parman',
     author_email='ryan@ryanparman.com',
     url="https://github.com/skyzyx/yml2json",
-    install_requires=['PyYAML==3.11'],
-    version='1.0.1',
+    install_requires=[
+        'python-dateutil==2.5.2',
+        'PyYAML==3.11',
+    ],
+    version='1.1.0',
     packages=['yml2json'],
     description='Converts YAML input to JSON output.',
     long_description=readme(),

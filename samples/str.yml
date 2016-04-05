@@ -1,0 +1,6 @@
+# http://nodeca.github.io/js-yaml/
+---
+
+# http://yaml.org/type/str.html -----------------------------------------------#
+
+string: abcd

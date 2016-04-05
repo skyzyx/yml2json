@@ -1,0 +1,16 @@
+{
+    "development": {
+        "adapter": "postgres",
+        "host": "localhost",
+        "database": "myapp_development"
+    },
+    "test": {
+        "adapter": "postgres",
+        "host": "localhost",
+        "database": "myapp_test"
+    },
+    "defaults": {
+        "adapter": "postgres",
+        "host": "localhost"
+    }
+}

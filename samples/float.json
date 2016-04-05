@@ -1,0 +1,10 @@
+{
+    "float": {
+        "sexagesimal": 685230.15,
+        "not a number": NaN,
+        "exponentioal": 685230.15,
+        "fixed": 685230.15,
+        "negative infinity": -Infinity,
+        "canonical": 685230.15
+    }
+}

@@ -1,0 +1,13 @@
+# http://nodeca.github.io/js-yaml/
+---
+
+# http://yaml.org/type/pairs.html ---------------------------------------------#
+
+pairs:
+  # Explicitly typed pairs.
+  Block tasks: !!pairs
+    - meeting: with team.
+    - meeting: with boss.
+    - break: lunch.
+    - meeting: with client.
+  Flow tasks: !!pairs [ meeting: with team, meeting: with boss ]

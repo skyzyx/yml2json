@@ -1,0 +1,14 @@
+{
+    "set": {
+        "baseball teams": [
+            "Detroit Tigers",
+            "Boston Red Sox",
+            "New York Yankees"
+        ],
+        "baseball players": [
+            "Ken Griffey",
+            "Sammy Sosa",
+            "Mark McGwire"
+        ]
+    }
+}

@@ -4,7 +4,7 @@
 [![Open Issues](http://img.shields.io/github/issues/skyzyx/yml2json.svg?style=flat-square)](https://github.com/skyzyx/yml2json/issues)
 [![Author](http://img.shields.io/badge/author-@skyzyx-blue.svg?style=flat-square)](https://twitter.com/skyzyx)
 
-Converts YAML input to JSON output.
+Converts YAML input to JSON output. Relies on [PyYaml](http://pyyaml.org/wiki/PyYAML), which supports [YAML 1.0](http://yaml.org/spec/1.0/) and [1.1](http://yaml.org/spec/1.1/), but not [1.2](http://www.yaml.org/spec/1.2/spec.html).
 
 
 ## Examples
