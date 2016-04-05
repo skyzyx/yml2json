@@ -5,7 +5,11 @@ yml2json
 | |Open Issues|
 | |Author|
 
-Converts YAML input to JSON output.
+Converts YAML input to JSON output. Relies on
+`PyYaml <http://pyyaml.org/wiki/PyYAML>`__, which supports `YAML
+1.0 <http://yaml.org/spec/1.0/>`__ and
+`1.1 <http://yaml.org/spec/1.1/>`__, but not
+`1.2 <http://www.yaml.org/spec/1.2/spec.html>`__.
 
 Examples
 --------
