@@ -11,6 +11,8 @@ Converts YAML input to JSON output. Relies on
 `1.1 <http://yaml.org/spec/1.1/>`__, but not
 `1.2 <http://www.yaml.org/spec/1.2/spec.html>`__.
 
+``yml2json`` has been tested on Python 2.7.11 and Python 3.5.1. YMMV.
+
 Examples
 --------
 
