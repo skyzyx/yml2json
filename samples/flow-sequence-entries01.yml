@@ -1,0 +1,15 @@
+# http://www.yaml.org/spec/1.2/spec.html
+%YAML 1.2
+---
+!!seq [
+  !!str "double quoted",
+  !!str "single quoted",
+  !!str "plain text",
+  !!seq [
+    !!str "nested",
+  ],
+  !!map {
+    ? !!str "single"
+    : !!str "pair",
+  },
+]

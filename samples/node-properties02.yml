@@ -1,0 +1,4 @@
+# http://www.yaml.org/spec/1.2/spec.html
+!!str &a1 "foo":
+  !!str bar
+&a2 baz : *a1

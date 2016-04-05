@@ -1,0 +1,9 @@
+# http://www.yaml.org/spec/1.2/spec.html
+%YAML 1.2
+---
+!!seq [
+  !!str "detected\n",
+  !!str "\n\n# detected\n",
+  !!str "·explicit\n",
+  !!str "\t·detected\n",
+]

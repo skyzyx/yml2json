@@ -1,0 +1,10 @@
+# http://www.yaml.org/spec/1.2/spec.html
+- | # Empty header
+ literal
+- >1 # Indentation indicator
+  folded
+- |+ # Chomping indicator
+ keep
+
+- >1- # Both indicators
+  strip

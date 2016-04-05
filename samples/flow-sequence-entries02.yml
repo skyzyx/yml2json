@@ -1,0 +1,9 @@
+# http://www.yaml.org/spec/1.2/spec.html
+[
+"double
+ quoted", 'single
+           quoted',
+plain
+ text, [ nested ],
+single: pair,
+]

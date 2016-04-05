@@ -1,0 +1,7 @@
+# http://www.yaml.org/spec/1.2/spec.html
+{
+unquoted : "separate",
+"http://foo.com",
+omitted value:,
+null: omitted key,
+}

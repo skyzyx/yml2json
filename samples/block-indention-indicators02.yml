@@ -1,0 +1,12 @@
+# http://www.yaml.org/spec/1.2/spec.html
+- |
+ detected
+- >
+
+
+  # detected
+- |1
+  explicit
+- >
+
+ detected

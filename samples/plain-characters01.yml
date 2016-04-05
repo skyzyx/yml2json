@@ -1,0 +1,17 @@
+# http://www.yaml.org/spec/1.2/spec.html
+%YAML 1.2
+---
+!!seq [
+  !!str "::vector",
+  !!str ": - ()",
+  !!str "Up, up, and away!",
+  !!int "-123",
+  !!str "http://example.com/foo#bar",
+  !!seq [
+    !!str "::vector",
+    !!str ": - ()",
+    !!str "Up, up, and away!",
+    !!int "-123",
+    !!str "http://example.com/foo#bar",
+  ],
+]

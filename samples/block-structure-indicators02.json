@@ -1,0 +1,10 @@
+{
+    "mapping": {
+        "sky": "blue",
+        "sea": "green"
+    },
+    "sequence": [
+        "one",
+        "two"
+    ]
+}

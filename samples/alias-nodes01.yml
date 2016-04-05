@@ -1,0 +1,13 @@
+# http://www.yaml.org/spec/1.2/spec.html
+%YAML 1.2
+---
+!!map {
+  ? !!str "First occurrence"
+  : &A !!str "Foo",
+  ? !!str "Override anchor"
+  : &B !!str "Bar",
+  ? !!str "Second occurrence"
+  : *A,
+  ? !!str "Reuse anchor"
+  : *B,
+}

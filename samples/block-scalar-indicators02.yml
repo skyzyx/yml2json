@@ -1,0 +1,7 @@
+# http://www.yaml.org/spec/1.2/spec.html
+literal: |
+  some
+  text
+folded: >
+  some
+  text

@@ -1,0 +1,9 @@
+# http://www.yaml.org/spec/1.2/spec.html
+%YAML 1.2
+---
+!!map {
+  ? !!str "literal"
+  : !!str "some\ntext\n",
+  ? !!str "folded"
+  : !!str "some text\n",
+}
