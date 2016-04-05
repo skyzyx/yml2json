@@ -55,6 +55,24 @@ pip install -r requirements.txt && \
 pip install -r requirements2.txt
 ```
 
+# Known Issues
+
+In <http://www.yaml.org/spec/1.2/spec.html>, it lists a new document with a `!` tag.
+
+```yaml
+--- !<tag:clarkevans.com,2002:invoice>
+```
+
+This is not supported by PyYAML, and therefore not supported by `yml2json`. Instead, you need to remove the `!` tag.
+
+In simple cases, you can remove this by hand, leaving only the doucment-start annotation: `---`.
+
+In more complex cases, you can use regular expressions (e.g., PCRE) to find matches, then replace them with `---`.
+
+```
+^---\s+!<([^>]*)>\s*$
+```
+
 ## Contributing
 Here's the process for contributing:
 
