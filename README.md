@@ -4,10 +4,18 @@
 [![Open Issues](http://img.shields.io/github/issues/skyzyx/yml2json.svg?style=flat-square)](https://github.com/skyzyx/yml2json/issues)
 [![Author](http://img.shields.io/badge/author-@skyzyx-blue.svg?style=flat-square)](https://twitter.com/skyzyx)
 
-Converts YAML input to JSON output. Relies on [PyYaml](http://pyyaml.org/wiki/PyYAML), which supports [YAML 1.0](http://yaml.org/spec/1.0/) and [1.1](http://yaml.org/spec/1.1/), but not [1.2](http://www.yaml.org/spec/1.2/spec.html).
+Converts YAML input to JSON output. Relies on [PyYaml](http://pyyaml.org/wiki/PyYAML), and includes its features as well as its caveats.
 
-`yml2json` has been tested on Python 2.7.11 and Python 3.5.1. YMMV.
+## Features
 
+* Small. Simple. Fast.
+* Has been tested on Python 2.7.11 and Python 3.5.1.
+* Supports [YAML 1.0](http://yaml.org/spec/1.0/) and [1.1](http://yaml.org/spec/1.1/), but not [1.2](http://www.yaml.org/spec/1.2/spec.html).
+* Supports single-document YAML files, but not multi-document YAML files.
+* Supports compressed and pretty JSON output.
+* Supports input from a file or `stdin`.
+* Seamlessly converts datestamps into ISO-8601 strings.
+* Seamlessly converts YAML sets into JSON lists.
 
 ## Examples
 
