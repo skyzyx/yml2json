@@ -18,4 +18,4 @@ push:
 
 .PHONY: clean
 clean:
-	rm -Rf *.pyc build/ dist/ docs/ yml2json.egg-info/
+	rm -Rf **/*.pyc build/ dist/ docs/ yml2json.egg-info/
