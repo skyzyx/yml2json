@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.1.3 - 2016-04-04
+
+* Verified that everything works in Python 3.5.1 in addition to Python 2.7.11.
+
 ## 1.1.2 - 2016-04-04
 
 * Fixed the requirements list.

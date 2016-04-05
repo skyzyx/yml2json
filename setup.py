@@ -14,7 +14,7 @@ setuptools.setup(
         'python-dateutil==2.5.2',
         'PyYAML==3.11',
     ],
-    version='1.1.2',
+    version='1.1.3',
     packages=['yml2json'],
     description='Converts YAML input to JSON output.',
     long_description=readme(),

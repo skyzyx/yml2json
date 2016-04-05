@@ -6,6 +6,8 @@
 
 Converts YAML input to JSON output. Relies on [PyYaml](http://pyyaml.org/wiki/PyYAML), which supports [YAML 1.0](http://yaml.org/spec/1.0/) and [1.1](http://yaml.org/spec/1.1/), but not [1.2](http://www.yaml.org/spec/1.2/spec.html).
 
+`yml2json` has been tested on Python 2.7.11 and Python 3.5.1. YMMV.
+
 
 ## Examples
 
