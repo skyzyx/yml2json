@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.1.2
+
+* Fixed the requirements list.
+
 ## 1.1.1 - 2016-04-04
 
 * Identical to 1.1.0. PyPi was being a jerk.
