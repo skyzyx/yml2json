@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 1.1.2
+## 1.1.2 - 2016-04-04
 
 * Fixed the requirements list.
 
