@@ -50,7 +50,8 @@ Next, activate your virtual environment and install the dependencies.
 
     virtualenv vendor && \
     source vendor/bin/activate && \
-    pip install -r requirements.txt
+    pip install -r requirements.txt && \
+    pip install -r requirements2.txt
 
 Contributing
 ------------
