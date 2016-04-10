@@ -35,8 +35,27 @@ class JsonTimeEncoder(json.JSONEncoder):
 
 # -----------------------------------------------------------------------------
 
+def pretty_output(read):
+    return json.dumps(
+        yaml.load(read),
+        # sort_keys=True,
+        indent=4,
+        separators=(',', ': '),
+        cls=JsonTimeEncoder
+    )
+
+def compressed_output(read):
+    return json.dumps(
+        yaml.load(read),
+        cls=JsonTimeEncoder
+    )
+
+# -----------------------------------------------------------------------------
+
 def timestamp_constructor(loader, node):
     return dateutil.parser.parse(node.value)
+
+yaml.add_constructor(u'tag:yaml.org,2002:timestamp', timestamp_constructor)
 
 def main():
     # Available CLI flags.
@@ -84,21 +103,11 @@ def main():
                 )
     else:
         if flags.pretty:
-            print(json.dumps(
-                yaml.load(flags.input.read()),
-                # sort_keys=True,
-                indent=4,
-                separators=(',', ': '),
-                cls=JsonTimeEncoder
-            ))
+            print(pretty_output(flags.input.read()))
         else:
-            print(json.dumps(
-                yaml.load(flags.input.read()),
-                cls=JsonTimeEncoder
-            ))
+            print(compressed_output(flags.input.read()))
 
 # -----------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    yaml.add_constructor(u'tag:yaml.org,2002:timestamp', timestamp_constructor)
     main()

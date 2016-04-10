@@ -55,6 +55,12 @@ pip install -r requirements.txt && \
 pip install -r requirements2.txt
 ```
 
+## Tests
+
+```bash
+make test
+```
+
 ## Contributing
 Here's the process for contributing:
 

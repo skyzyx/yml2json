@@ -19,3 +19,8 @@ push:
 .PHONY: clean
 clean:
 	rm -Rf **/*.pyc build/ dist/ docs/ yml2json.egg-info/
+
+.PHONY: test
+test:
+	pip install -e .
+	nose2
