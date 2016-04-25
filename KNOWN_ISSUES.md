@@ -9,7 +9,7 @@ In <http://www.yaml.org/spec/1.2/spec.html>, it lists a new document with a `!` 
 
 This is not supported by PyYAML, and therefore not supported by `yml2json`. Instead, you need to remove the `!` tag.
 
-In simple cases, you can remove this by hand, leaving only the doucment-start annotation: `---`.
+In simple cases, you can remove this by hand, leaving only the document-start annotation: `---`.
 
 In more complex cases, you can use regular expressions (e.g., PCRE) to find matches, then replace them with `---`.
 
