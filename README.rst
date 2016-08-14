@@ -1,9 +1,7 @@
 yml2json
 ========
 
-| |Source|
-| |Open Issues|
-| |Author|
+|Source| |Open Issues| |Author|
 
 Converts YAML input to JSON output. Relies on
 `PyYaml <http://pyyaml.org/wiki/PyYAML>`__, and includes its features as
