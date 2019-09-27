@@ -12,7 +12,7 @@ setuptools.setup(
     url="https://github.com/skyzyx/yml2json",
     install_requires=[
         'python-dateutil==2.5.2',
-        'PyYAML==3.11',
+        'PyYAML==5.1',
     ],
     version='1.1.3',
     packages=['yml2json'],
